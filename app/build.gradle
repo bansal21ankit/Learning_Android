@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.bansalankit.learning"
+        targetSdkVersion 23
+        minSdkVersion 15
+        versionName "1.0"
+        versionCode 1
+    }
+    buildTypes {
+        debug {
+            buildConfigField("boolean", "DEBUGGABLE", "true");
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:customtabs:23.3.0'
+}

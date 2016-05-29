@@ -1,0 +1,4 @@
+<resources>
+    <!-- Default screen dimensions -->
+    <dimen name="activity_padding">16dp</dimen>
+</resources>

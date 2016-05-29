@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Learning</string>
+
+    <!--WebView Testing activity-->
+    <string name="webview_title">WebView Test</string>
+
+    <!--Camera Testing activity-->
+    <string name="finger_print_title">Camera Test</string>
+</resources>

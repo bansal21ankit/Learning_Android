@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.bansalankit.learning.MainActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/activity_padding"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:onClick="onWebViewTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/webview_title" />
+
+    <Button
+        android:onClick="onFingerPrintTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/finger_print_title" />
+</LinearLayout>
