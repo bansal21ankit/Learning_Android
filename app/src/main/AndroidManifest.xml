@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.bansalankit.learning">
 
     <application
@@ -20,5 +21,12 @@
         <activity
             android:name=".CameraActivity"
             android:label="@string/finger_print_title" />
+        <activity
+            android:name=".ExtrasActivity"
+            android:label="@string/extras_title" />
+        <activity
+            android:name=".LockOverActivity"
+            android:label="@string/lock_over_title"
+            android:showOnLockScreen="true" />
     </application>
 </manifest>

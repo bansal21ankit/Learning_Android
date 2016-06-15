@@ -6,4 +6,10 @@
 
     <!--Camera Testing activity-->
     <string name="finger_print_title">Camera Test</string>
+
+    <!--Extras Testing activity-->
+    <string name="extras_title">Extras Test</string>
+
+    <!--Lock Over Testing activity-->
+    <string name="lock_over_title">Lock Over Test</string>
 </resources>

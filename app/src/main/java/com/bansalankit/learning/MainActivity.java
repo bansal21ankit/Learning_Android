@@ -1,7 +1,10 @@
 package com.bansalankit.learning;
 
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
@@ -23,6 +26,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onFingerPrintTest(View view) {
         startActivity(new Intent(this, CameraActivity.class));
+        overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
+    }
+
+    public void onExtrasTest(View view) {
+        startActivity(new Intent(this, ExtrasActivity.class));
         overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
     }
 }
